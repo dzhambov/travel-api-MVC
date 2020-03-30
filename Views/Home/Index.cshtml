@@ -1,0 +1,13 @@
+﻿<h1>All Destinations:</h1>
+
+<ol>
+@foreach (Destination destination in Model)
+{
+    <ul>
+        <li>Section: @destination.Country</li>
+        <li>Title: @destination.City</li>
+        <li>Abstract: @destination.Rating)</li>
+    </ul>
+    <br>
+}
+</ol>
