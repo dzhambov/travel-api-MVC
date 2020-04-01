@@ -11,27 +11,27 @@ namespace TravelApiMVC.Models
     public string ReviewText { get; set; }
     public string user_name { get; set; }
     public string Rating { get; set; }
-    public Destination Destination { get; set; }
+    // public Destination Destination { get; set; }
     public static List<Review> GetReviews()
     {
-      var apiCallTask = ApiHelper.ApiCall();
+      var apiCallTask = ReviewApiHelper.ApiCall();
       var result = apiCallTask.Result;
 
       JArray jsonResponse = JsonConvert.DeserializeObject<JArray>(result);
       List<Review> reviewList = JsonConvert.DeserializeObject<List<Review>>(jsonResponse.ToString());
 
-      return ReviewList;
+      return reviewList;
     }
 
     public static void Post(Review review)
     {
       string jsonReview = JsonConvert.SerializeObject(review);
-      var apiCallTask = ApiHelper.Post(jsonReview);
+      var apiCallTask = ReviewApiHelper.Post(jsonReview);
     }
 
     public static Review GetDetails(int id)
     {
-      var apiCallTask = ApiHelper.Get(id);
+      var apiCallTask = ReviewApiHelper.Get(id);
       var result = apiCallTask.Result;
 
       JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);
@@ -43,12 +43,12 @@ namespace TravelApiMVC.Models
     public static void Put(Review review)
     {
       string jsonReview = JsonConvert.SerializeObject(review);
-      var apiCallTask = ApiHelper.Put(review.ReviewId, jsonReview);
+      var apiCallTask = ReviewApiHelper.Put(review.ReviewId, jsonReview);
     }
 
     public static void Delete(int id)
     {
-      var apiCallTask = ApiHelper.Delete(id);
+      var apiCallTask = ReviewApiHelper.Delete(id);
     }
   }
 }
