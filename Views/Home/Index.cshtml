@@ -1,13 +1,25 @@
-﻿<h1>All Destinations:</h1>
-
-<ol>
-@foreach (Destination destination in Model)
-{
-    <ul>
-        <li>Section: @destination.Country</li>
-        <li>Title: @destination.City</li>
-        <li>Abstract: @destination.Rating)</li>
-    </ul>
-    <br>
+﻿@{
+  Layout = "_Layout";
 }
-</ol>
+
+<h1>Welcome to the Travel API!</h1>
+
+@if (User.Identity.IsAuthenticated)
+{
+  <p>You are now logged in as: @User.Identity.Name!</p>
+
+      @using (Html.BeginForm("LogOff", "Account"))
+  {
+      <input type="submit" class="btn btn-danger" value="Log out" />
+  }
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+  <p>You are not logged in.</p>
+  <p>You may browse, but you must be registered and logged in to modify items on this website.</p>
+  <p>@Html.ActionLink("Register a new account", "Register", "Account")</p>  
+  <p>@Html.ActionLink("Log in to existing account", "Login", "Account")</p>
+}
+
+  <p>@Html.ActionLink("See all destinations", "Index", "Destination")</p>
