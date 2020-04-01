@@ -5,10 +5,11 @@ namespace TravelApiMVC.Controllers
 {
   public class HomeController : Controller
   {
-    public IActionResult Index()
+
+    [HttpGet("/")]
+    public ActionResult Index()
     {
-      var allDestinations = Destination.GetDestinations();
-      return View(allDestinations);
+      return View();
     }
   }
 }

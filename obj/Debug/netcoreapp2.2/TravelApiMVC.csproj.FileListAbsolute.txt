@@ -29,3 +29,7 @@ C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\TravelApiMVC.dll
 C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\TravelApiMVC.pdb
 C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\TravelApiMVC.csproj.CopyComplete
 C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\Razor\Views\Destination\Index.g.cshtml.cs
+C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\Razor\Views\Destination\Create.g.cshtml.cs
+C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\Razor\Views\Destination\Delete.g.cshtml.cs
+C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\Razor\Views\Destination\Details.g.cshtml.cs
+C:\Users\dzham\desktop\travel-api-MVC\obj\Debug\netcoreapp2.2\Razor\Views\Destination\Edit.g.cshtml.cs

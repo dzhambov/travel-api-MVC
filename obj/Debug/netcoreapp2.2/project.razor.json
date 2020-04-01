@@ -2976,8 +2976,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dzham\\desktop\\travel-api-MVC\\Views\\Destination\\Delete.cshtml",
+      "TargetPath": "Views\\Destination\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dzham\\desktop\\travel-api-MVC\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dzham\\desktop\\travel-api-MVC\\Views\\Destination\\Create.cshtml",
+      "TargetPath": "Views\\Destination\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2991,6 +3001,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\dzham\\desktop\\travel-api-MVC\\Views\\Destination\\Details.cshtml",
+      "TargetPath": "Views\\Destination\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\dzham\\desktop\\travel-api-MVC\\Views\\Destination\\Index.cshtml",
       "TargetPath": "Views\\Destination\\Index.cshtml",
       "FileKind": "mvc"
@@ -2998,6 +3013,11 @@
     {
       "FilePath": "c:\\Users\\dzham\\desktop\\travel-api-MVC\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\dzham\\desktop\\travel-api-MVC\\Views\\Destination\\Edit.cshtml",
+      "TargetPath": "Views\\Destination\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
